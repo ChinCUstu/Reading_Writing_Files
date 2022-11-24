@@ -85,3 +85,30 @@ def tangled():
     turtle.forward(59)
     turtle.pendown()
     sets()
+
+
+def axis():
+    turtle.reset()
+    turtle.hideturtle()
+    turtle.setheading(90)
+    turtle.forward(100)
+    turtle.write('North')
+
+    turtle.goto(0, 0)
+    turtle.setheading(0)
+    turtle.forward(100)
+    turtle.write('East')
+
+    turtle.goto(0, 0)
+    turtle.setheading(180)
+    turtle.forward(100)
+    turtle.write('West')
+
+    turtle.goto(0, 0)
+    turtle.setheading(270)
+    turtle.forward(100)
+    turtle.write('South')
+    turtle.penup()
+    turtle.goto(-20, 0)
+    turtle.pendown()
+    turtle.circle(20)
