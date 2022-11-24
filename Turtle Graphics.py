@@ -32,4 +32,16 @@ square.tangled()
 
 square.axis()
 
+turtle.reset()
+turtle.dot()
+turtle.setheading(45)
+turtle.forward(100)
+turtle.dot()
+turtle.setheading(270)
+turtle.forward(150)
+turtle.dot()
+turtle.setheading(131.5)
+turtle.forward(105.7)
+turtle.dot()
+
 turtle.done()

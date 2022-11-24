@@ -72,6 +72,7 @@ def sets():
 
 
 def tangled():
+    turtle.hideturtle()
     sets()
     turtle.penup()
     turtle.goto(0, 0)
